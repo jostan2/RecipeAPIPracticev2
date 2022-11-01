@@ -1,0 +1,9 @@
+﻿@model Results
+
+@foreach (Result r in Model.results)
+{
+    
+    <p>Title: @r.title</p>
+    <p>Id: @r.id</p>
+    <img src="@r.image"/>
+}
